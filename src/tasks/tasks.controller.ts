@@ -3,10 +3,10 @@ import { Controller, Get } from '@nestjs/common';
 
 @Controller('tasks')
 export class TasksController {
-  constructor(private TasksService: TasksService) {}
+  constructor(private tasksService: TasksService) {}
 
   @Get()
   getAllTasks() {
-    return this.TasksService.getAllTasks();
+    return this.tasksService.getAllTasks();
   }
 }
