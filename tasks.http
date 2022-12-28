@@ -1,0 +1,2 @@
+### get All tasks
+Get http://localhost:3000/tasks HTTP/1.1
