@@ -4,7 +4,7 @@ Get http://localhost:3000/tasks HTTP/1.1
 
 ### Create new Task
 POST  http://localhost:3000/tasks HTTP/1.1
-content-type: application/json
+content-type: application/json 
 
 {
   "title": "Check apartment document",
@@ -17,6 +17,7 @@ GET http://localhost:3000/tasks/4603dc92-b5ce-438c-934e-4d5ec52facaf
 
 ### Delete task by ID
 DELETE  http://localhost:3000/tasks/37d4715d-7eb8-4ce5-9d1c-b7a503e79008
+
 
 ### Update Task status
 PATCH  http://localhost:3000/tasks/314019b3-09bd-45d1-9b7f-b0a61dcd9cb7/status
